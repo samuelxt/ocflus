@@ -6,12 +6,12 @@ sudo add-apt-repository ppa:ondrej/php
 sudo apt-get install php
 sudo apt-get install unzip
 
-wget https://raw.githubusercontent.com/samuelxt/ocflus/master/flussonic-python_18.11_amd64.deb
-wget https://raw.githubusercontent.com/samuelxt/ocflus/master/flussonic-ffmpeg-base_4.6_amd64.deb
-wget https://raw.githubusercontent.com/samuelxt/ocflus/master/flussonic-ffmpeg_4.6_amd64.deb
-wget https://raw.githubusercontent.com/samuelxt/ocflus/master/flussonic-erlang_21.1.4_amd64.deb
-wget https://raw.githubusercontent.com/samuelxt/ocflus/master/flussonic_18.12.1_amd64.deb
-wget https://raw.githubusercontent.com/samuelxt/ocflus/master/hack.zip
+wget https://raw.githubusercontent.com/samuelxt/ocflus/blob/main/flussonic-python_18.11_amd64.deb
+wget https://raw.githubusercontent.com/samuelxt/ocflus/blob/main/flussonic-ffmpeg-base_4.6_amd64.deb
+wget https://raw.githubusercontent.com/samuelxt/ocflus/blob/main/flussonic-ffmpeg_4.6_amd64.deb
+wget https://raw.githubusercontent.com/samuelxt/ocflus/blob/main/flussonic-erlang_21.1.4_amd64.deb
+wget https://raw.githubusercontent.com/samuelxt/ocflus/blob/main/flussonic_18.12.1_amd64.deb
+wget https://raw.githubusercontent.com/samuelxt/ocflus/blob/main/hack.zip
 
 unzip hack.zip
 dpkg -i flussonic-python_18.11_amd64.deb
