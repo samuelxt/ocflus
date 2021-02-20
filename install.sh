@@ -22,4 +22,4 @@ dpkg -i flussonic_18.12.1_amd64.deb
 
 /etc/init.d/apache2 restart
 /etc/init.d/flussonic start
-echo "flu starts with the following command:  /etc/init.d/flussonic run and wget https://raw.githubusercontent.com/samuelxt/ocflus/main/install.sh"
+echo "broken dont try "
