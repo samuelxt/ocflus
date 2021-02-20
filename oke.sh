@@ -1,6 +1,7 @@
 #!/bin/sh
 	sudo apt-get update && apt-get upgrade -y && apt-get install htop -y
 	sudo apt-get update && sudo apt-get install vlc vlc-plugin-* -y && sudo apt-get install vlc browser-plugin-vlc -y
+	sudo apt-get install software-properties-common
 	sudo apt-get install unzip
 	
 	wget https://raw.githubusercontent.com/samuelxt/ocflus/main/flussonic-ffmpeg-base_4.6_amd64.deb
